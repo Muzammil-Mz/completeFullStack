@@ -4,7 +4,7 @@ import config from "config";
 import "./utils/dbConnect.js";
 import publicRouter from "./controllers/public/index.js";
 import userRouter from "./controllers/users/index.js";
-
+import cors from "cors"
 const app = express();
 app.use(express.json());
 const PORT = config.get("PORT");
