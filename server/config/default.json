@@ -1,0 +1,4 @@
+{
+    "PORT":5002,
+    "DB_URL":"mongodb+srv://incorrectemail7u:incorrectemail7u@muzammil.dnf43.mongodb.net/fullStack"
+}
